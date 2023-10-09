@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container-fluid {
+  width: 96%;
+  margin: auto;
+}
+
+.container-fluid {
+  width: 96%;
+  margin: auto;
+}
+.container-fluid .row .col .card {
+  border: none;
+}
+.container-fluid .row .col .card .card-body .card-text small {
+  font-size: 10px;
+}
+.container-fluid .row .col .card .card-body .card-text small a {
+  text-decoration: none;
+  color: rgb(121, 123, 124);
+}
+.container-fluid .row .col .card .card-body .card-title a {
+  text-decoration: none;
+  color: #000000;
+}
+.container-fluid .row .col .card .card-body .card-title a:hover {
+  color: rgba(29, 29, 250, 0.896);
+}
+.container-fluid .row .col .card hr {
+  border: 1px dotted;
+}
+.container-fluid .horizontal-line hr {
+  border: 4px dotted;
+}

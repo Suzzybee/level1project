@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    // border: 1px solid red;
+}
+//////////////SECTION 1///////////// 
+.row{
+    .sect-1{
+    background-color: rgb(245,245,245);
+    width: 100%;
+    padding: 5em 0;
+    }
+}
+.section2-row{
+    justify-content: space-between;
+    .sect-2{
+        // border: 1px solid red;
+        font-size: 1.3em;
+        text-align: justify;
+    strong{
+        a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }  
+    }
+    hr{
+        width: 11em;
+    }    
+    }
+    .sect-2b{
+        padding-left: 7em;
+        img{
+        width: 40em;
+        }
+    }
+}
+.section3-row{
+    .sect-3-col1{
+        h2{
+            font-weight: 650;
+            font-size: 3em;
+        }
+        p{
+            a{
+                text-decoration: none;
+            }
+        }
+        div{
+            button:hover{
+                background-color: rgb(0, 0, 0);
+                color: #ffff;
+            }
+        }
+    }
+    .sect-3-col2{
+        .card{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-bottom: 2em;
+            h5{
+                font-size: 2em;
+                font-weight: 500;
+                margin-bottom: -.8em !important;
+            }
+            .card-body{
+                .card-text{
+                    .bi-arrow{
+                        margin-left: 2em !important;
+                    }
+                    span{
+                        ul{
+                            display: flex;
+                           li{
+                            font-size: 8px;
+                           }
+                        }
+                    }
+                }
+            }
+        }
+        .design{
+            display: none;
+        }
+        .design-btn:hover{
+            .card{
+                display: none;
+            }
+            .design{
+                display: block;
+            }
+        }
+        .card:hover{
+            background-color: rgb(22,203,62);
+            color: #ffff;
+            .bi-dot{
+                color: black;
+            }
+            p{
+                color: #ffff;
+            }
+        }
+    }
+}
+.container{
+    .section4-row{
+        .sect-4{
+            h1{
+                font-size: 3em;
+                font-weight: 500 !important;
+                // color: aqua;
+            }
+        }
+        .icons-text{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 2em;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1400px) {
+    .section2-row .sect-2b{
+        
+      padding-left: 2em !important
+    }
+    .section2-row .sect-2b img{
+      width: 30em !important;;
+    }
+    .sect-2{
+        font-size: 1em !important;
+    }
+    button{
+        padding: 0px !important;
+    }
+    .card{
+        margin-left: 3em;
+    }
+  }
+  @media (max-width: 1000px) {
+    .section2-row .sect-2b{   
+      padding-left: 1em !important
+    }
+    .section2-row .sect-2b img{
+      width: 25em !important;;
+    }
+    .sect-2{
+        font-size: 0.8em !important;
+    }
+
+  }
+  @media (max-width: 769px){
+    .section2-row{
+        display: block !important;
+    }
+    .sect-2{
+        width: 95%;
+        margin: auto;
+        font-size: 1.3em !important;
+    }
+    .section2-row .sect-2b img{
+        width: 35em !important;
+    }
+    .container .section3-row{
+        display: block;
+    }
+    .container .section3-row .sect-3-col1 .btn-div{
+        width: 40em;
+        margin-left: -2em;
+    } 
+    button{
+        padding: 1em 3em;
+        margin-left: 2em;
+    }
+    .card{
+        width: 40em !important;
+        margin-left: -0.5em;
+    }
+    .bi-arrow-right-square-fill{
+        margin-left: 17em;
+    }
+    .card-title{
+        padding-bottom: 1em;
+    }
+    .icons-text{
+        display: block !important;
+       
+    }
+
+  }
+  @media (max-width: 635px){
+    .sect-2{
+        width: 95%;
+        margin: auto;
+        font-size: 1.2em !important;
+    }
+    .section2-row .sect-2b img{
+        width: 35em !important;
+    }
+    .container .section3-row .sect-3-col1 .btn-div{
+        width: 10em;
+        display: flex !important;
+        margin-left: -2em;
+    } 
+    button{
+        // padding: 1em 5em !important;
+        margin-left: 0.5em;
+    }
+    .card{
+        width: 34em !important;
+        margin-left: -0.5em;
+    }
+    .bi-arrow-right-square-fill{
+        margin-left: 14em;
+    }
+  }
+  @media (max-width: 490px){
+    .section2-row .sect-2b img{
+        width: 25em !important;
+    }
+      .card{
+        width: 26em !important;
+        // display: none !important;
+    }
+    .container .section3-row .sect-3-col1 .btn-div{
+        width: 25em;
+        margin-left: -2em;
+        flex-wrap: wrap;
+  }
+   .bi-arrow-right-square-fill{
+        margin-left: 10em;
+    }
+    .container .section3-row .sect-3-col1 h6, p{
+        width: 20em;
+    }
+    .container .section3-row .sect-3-col1 h6{
+       font-size: 2em;
+       font-weight: 400;
+    }
+  
+  }
+  @media (max-width: 376px){
+    .section2-row .sect-2b img{
+        width: 20em !important;
+      }
+      .card{
+        width: 18em !important;
+      }
+      .card-title{
+        font-size: 16px !important;
+        font-weight: 400;
+      }
+      .bi-arrow-right-square-fill{
+        margin-left: 8em;
+    }
+  }
+  @media (max-width: 320px){
+    .section2-row .sect-2b img{
+        width: 15em !important;
+      }
+      .sect-2{
+        font-size: 14px !important;
+      }
+      button{
+        width: 8em !important;
+      }
+      footer .container-fluid .container .container-content h1{
+        font-size: 1.5em;
+        width: 10em;
+        text-align: center;
+        margin-left: -3.5em;
+      }
+      .footer-header{
+        font-size: .7em;
+        width: 20em;
+        margin-left: -6em;
+      }
+      .icon-container{
+        width: 15em;
+        margin-left: -5em;
+      }
+    .footer-icon{
+        width: 2em;
+        // display: flex !important;
+    }  
+    .Subscribe-text{
+        margin-left: -3.5em;
+    }
+    .post-footer-inner{
+        font-size: .8em;
+        margin-left: -4em;
+    }
+  }
+
+
+
+
+
